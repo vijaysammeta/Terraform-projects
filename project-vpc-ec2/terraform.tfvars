@@ -1,0 +1,12 @@
+region             = "ap-south-1"
+cidr               = "192.168.0.0/16"
+ami_id             = "ami-02b8269d5e85954ef"
+instance_type      = "t3.micro"
+bucket_name        = "terraform-vijay-bkt-123"
+instance_name      = "terraform-web"
+subnet_cidrs       = ["192.168.1.0/24", "192.168.2.0/24"]
+availability_zones = ["ap-south-1a", "ap-south-1b"]
+alb_name           = "myalb"
+target_group_name  = "myTG"
+http_port          = 80
+ssh_port           = 22
